@@ -1,0 +1,57 @@
+.id-card {
+  background-color: #EEE;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+  margin: 0;
+  font-family: "Droid Arabic Kufi", cursive;
+  font-size: 12px;
+}
+.card {
+  background-color: #070a51;
+  color: #fff;
+  width: 360px;
+  
+}
+.card-body .nameAr, .nameEn  {
+  max-width: 285px;
+  max-height: 30px;
+  overflow: hidden;
+  margin: 0 auto;
+  text-transform: capitalize;
+}
+.card-body .personal-img  { 
+  margin: 5px 0;
+}
+.card-title .header {
+  padding-left: 0;
+  padding-right: 0;
+}
+.card-title .header span {
+  display: block;
+  font-size: 8px;
+  line-height: 2;
+}
+.card-title .header img {
+  width: 70px;
+}
+.card-body .name-card {
+  text-transform: capitalize;
+  margin-bottom: 0;
+  color: #f28c1e;
+  font-weight: bold;
+}
+.personal-student span {
+  margin: 3px 0; 
+  display: inline-block;
+  min-width: 73px;
+  max-width: 100px;
+}
+
+.card-details .date {
+  display: block;
+  line-height: 2;
+  margin-top: 5px;
+}
