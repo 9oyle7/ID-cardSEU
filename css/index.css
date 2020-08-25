@@ -10,10 +10,11 @@
   font-size: 12px;
 }
 .card {
-  background-color: #070a51;
+  background-image: url(../img/id.png);
   color: #fff;
   width: 360px;
-  
+  border: none;
+  border-radius: 10px;
 }
 .card-body .nameAr, .nameEn  {
   max-width: 285px;
@@ -24,6 +25,7 @@
 }
 .card-body .personal-img  { 
   margin: 5px 0;
+  
 }
 .card-title .header {
   padding-left: 0;
